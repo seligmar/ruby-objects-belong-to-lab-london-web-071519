@@ -2,7 +2,7 @@ require "pry"
 
 class Artist 
   
-  attr_writer :name 
+  attr_ :name 
   
   def initialize(name)
     @name = name
